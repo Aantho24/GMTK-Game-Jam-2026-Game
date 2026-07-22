@@ -23,6 +23,8 @@
     {"id":{"name":"obj_init_window","path":"objects/obj_init_window/obj_init_window.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
+    {"id":{"name":"spr_burger_bottom_side","path":"sprites/spr_burger_bottom_side/spr_burger_bottom_side.yy",},},
+    {"id":{"name":"spr_burger_top_side","path":"sprites/spr_burger_top_side/spr_burger_top_side.yy",},},
     {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},
   ],
   "resourceType":"GMProject",

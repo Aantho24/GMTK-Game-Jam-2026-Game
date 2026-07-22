@@ -1,6 +1,8 @@
 top_side_heat = 0
 bottom_side_heat = 0
 
+burger_rotation = 0
+
 state_cooking_top = function() {
 	x = mouse_x
 	y = mouse_y

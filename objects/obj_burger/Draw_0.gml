@@ -1,0 +1,2 @@
+draw_sprite_ext(spr_burger_top_side, image_index, x, y, image_xscale, image_yscale, burger_rotation, c_white, image_alpha)
+draw_sprite_ext(spr_burger_bottom_side, image_index, x, y, image_xscale, image_yscale, burger_rotation, c_white, image_alpha)
