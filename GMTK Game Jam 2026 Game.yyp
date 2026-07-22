@@ -19,7 +19,9 @@
   },
   "name":"GMTK Game Jam 2026 Game",
   "resources":[
+    {"id":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
