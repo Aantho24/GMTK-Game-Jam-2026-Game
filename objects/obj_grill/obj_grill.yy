@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_burger",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_grill",
+  "eventList":[],
   "managed":true,
-  "name":"obj_burger",
+  "name":"obj_grill",
   "overriddenProperties":[],
   "parent":{
     "name":"GMTK Game Jam 2026 Game",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_grill",
+    "path":"sprites/spr_grill/spr_grill.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

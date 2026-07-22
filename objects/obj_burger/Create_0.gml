@@ -12,7 +12,7 @@ state_cooking_top = function() {
 	x = mouse_x
 	y = mouse_y
 	
-	top_side_heat = clamp(top_side_heat + COOK_AMOUNT, 0, 100)
+	if position_meeting(x,y,obj_grill) top_side_heat = clamp(top_side_heat + COOK_AMOUNT, 0, 100)
 	
 	state_previous = state
 	if mouse_check_button_pressed(mb_left) state = state_rotate
@@ -43,7 +43,7 @@ state_cooking_bottom = function() {
 	x = mouse_x
 	y = mouse_y
 	
-	bottom_side_heat = clamp(bottom_side_heat + COOK_AMOUNT, 0, 100)
+	if position_meeting(x,y,obj_grill) bottom_side_heat = clamp(bottom_side_heat + COOK_AMOUNT, 0, 100)
 	
 	state_previous = state
 	if mouse_check_button_pressed(mb_left) state = state_rotate

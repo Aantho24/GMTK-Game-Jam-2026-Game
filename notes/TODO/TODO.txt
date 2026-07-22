@@ -1,0 +1,13 @@
+
+Hate grilled = make grilled
+Hate mayonaise = give tons of mayonaise
+
+Order minigame:
+
+Grill minigame:
+- Bullets that fly across the screen
+- Grease marks that you can collect on stove
+
+
+Toppings minigame:
+- Topping from spewing from above by guy that was hired, must
