@@ -20,7 +20,9 @@
   "name":"GMTK Game Jam 2026 Game",
   "resources":[
     {"id":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},},
+    {"id":{"name":"obj_init_window","path":"objects/obj_init_window/obj_init_window.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},
   ],
   "resourceType":"GMProject",
