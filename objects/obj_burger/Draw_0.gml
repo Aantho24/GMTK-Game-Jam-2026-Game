@@ -1,2 +1,2 @@
-draw_sprite_ext(spr_burger_top_side, image_index, x, y, image_xscale, image_yscale, burger_rotation, c_white, image_alpha)
-draw_sprite_ext(spr_burger_bottom_side, image_index, x, y, image_xscale, image_yscale, burger_rotation, c_white, image_alpha)
+draw_sprite_ext(spr_burger_top_side, image_index, x, y, image_xscale, image_yscale, burger_rotation, merge_colour(RAW_BURGER_COLOR, CHARRED_BURGER_COLOR, top_side_heat/100), image_alpha)
+draw_sprite_ext(spr_burger_bottom_side, image_index, x, y, image_xscale, image_yscale, burger_rotation, merge_colour(RAW_BURGER_COLOR, CHARRED_BURGER_COLOR, bottom_side_heat/100), image_alpha)
