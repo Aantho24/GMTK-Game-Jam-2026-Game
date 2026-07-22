@@ -4,8 +4,8 @@ bottom_side_heat = 0
 burger_rotation = 0
 COOK_AMOUNT = 0.25
 
-RAW_BURGER_COLOR = make_colour_rgb(229,120,114)
-CHARRED_BURGER_COLOR = make_colour_rgb(25,25,25)
+RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
+CHARRED_BURGER_COLOR = make_colour_rgb(35,11,11)
 
 
 state_cooking_top = function() {
@@ -28,11 +28,11 @@ state_rotate = function() {
 		burger_rotation = lerp(burger_rotation, 0, 0.25)
 	}
 	
-	if burger_rotation < 1 {
+	if burger_rotation < 2 {
 		burger_rotation = 0
 		state_previous = state
 		state = state_cooking_bottom 
-	} else if (180 - burger_rotation) < 1 {
+	} else if (180 - burger_rotation) < 2 {
 		burger_rotation = 180
 		state_previous = state
 		state = state_cooking_top	

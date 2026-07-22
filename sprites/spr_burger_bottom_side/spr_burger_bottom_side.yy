@@ -19,6 +19,7 @@
   "height":8,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"938496f6-06a4-45bc-817a-7bc17bc954dc","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"938496f6-06a4-45bc-817a-7bc17bc954dc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"43cc77a2-098c-4040-933a-70c2841f86c7","blendMode":0,"displayName":"default","isLocked":false,"name":"43cc77a2-098c-4040-933a-70c2841f86c7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_burger_bottom_side",
