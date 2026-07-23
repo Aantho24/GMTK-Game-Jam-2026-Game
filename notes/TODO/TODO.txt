@@ -1,3 +1,5 @@
+TODO: Show heat level as a number
+
 7/22:
 - Grilling
 
@@ -6,6 +8,7 @@
 	- Fly across the screen, attach to burger upon contact
 - Order requirements
 	- When your burger meets the order requirements, you win
+	- Certain amount of ingredient, certain heat level
 - Assemble burger
 	- Submit burger for a rating upon right clicking 
 
