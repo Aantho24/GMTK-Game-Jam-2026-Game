@@ -1,1 +1,0 @@
-draw_sprite_ext(spr_patty, image_index, x, y, image_xscale, image_yscale, burger_rotation, merge_colour(RAW_BURGER_COLOR, CHARRED_BURGER_COLOR, heat/100), image_alpha)

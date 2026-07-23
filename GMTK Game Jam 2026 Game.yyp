@@ -27,7 +27,6 @@
     {"id":{"name":"obj_init_window","path":"objects/obj_init_window/obj_init_window.yy",},},
     {"id":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
-    {"id":{"name":"spr_burger_hitbox","path":"sprites/spr_burger_hitbox/spr_burger_hitbox.yy",},},
     {"id":{"name":"spr_grill","path":"sprites/spr_grill/spr_grill.yy",},},
     {"id":{"name":"spr_patty","path":"sprites/spr_patty/spr_patty.yy",},},
   ],

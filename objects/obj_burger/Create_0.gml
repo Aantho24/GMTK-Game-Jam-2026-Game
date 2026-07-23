@@ -1,5 +1,4 @@
 heat = 0
-burger_rotation = 0
 
 COOK_AMOUNT = 0.25
 RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
