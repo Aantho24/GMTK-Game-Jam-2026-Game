@@ -2,10 +2,12 @@
 - Grilling
 
 7/23:
-- Ordering
-- Ratings
-- Toppings
-- Escalating mechanics (level tracker)
+- Ingredients
+	- Fly across the screen, attach to burger upon contact
+- Order requirements
+	- When your burger meets the order requirements, you win
+- Assemble burger
+	- Submit burger for a rating upon right clicking 
 
 7/24:
 - Cutscenes
