@@ -22,13 +22,21 @@ state_move = function() {
 	}
 	
 	if place_meeting(x,y,obj_burger) and instance_exists(obj_burger) {
+		stack_height = obj_burger.sprite_height
+	
+		for (var topping = 0; topping < array_length(global.stacked_toppings); topping += 1) {
+			stack_height += topping.sprite_height
+		}
+		
+		array_push(global.stacked_toppings, self)
+		
 		state = state_stacked
 	}
 }
 
 state_stacked = function() {
 	x = obj_burger.x
-	y = obj_burger.y - obj_burger.sprite_height
+	y = obj_burger.y - stack_height
 }
 
 state = state_move

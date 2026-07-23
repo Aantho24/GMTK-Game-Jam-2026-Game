@@ -10,8 +10,6 @@ state_inactive = function() {
 	}
 }
 
-stacked_toppings = []
-
 state_follow_cursor = function() {
 	x = mouse_x
 	y = mouse_y

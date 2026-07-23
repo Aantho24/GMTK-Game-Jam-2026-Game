@@ -2,4 +2,4 @@
 
 randomize()
 
-global.burger_contents = []
+global.stacked_toppings = []
