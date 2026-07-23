@@ -1,13 +1,48 @@
+There are only two rules you gotta follow!
+One, the customer is NEVER right!
+- Most places bend over backwards for their customers. But THAT AINT now we do things here!
+- Do the OPPOSITE of whatever they tell you! They want ketchup? Give 'em mustard! They want their burger cooked? GIVE 'EM A RAW SLAB OF MEAT!
+- What's that? You were hired to be a janitor? Ahhhhhh you'll figure it out!
+	- Just follow the instructional text that materializes whenever a newbie shows up, and you'll be alright.
+	- Alright, I have bills to count. So get to it!
+
+
+Alright, just got done counting the bills. We're in debt. So we're on the right track!
+Now, let's have a look at those reviews...
+[Star amount] stars?!
+<3: See, you got the hang of it! 
+<1: Amazing, you're gonna get us to 0 stars in no time!
+
 
 Hate grilled = make grilled
 Hate mayonaise = give tons of mayonaise
 
+Order ideas:
+- Only raw meat
+- Vegan (no burger)
+
+
 Order minigame:
+GIMME ALLLLL THE MEATS
+MAKE IT RAWWWWWWWW (says while flexing his muscles)
+
 
 Grill minigame:
 - Bullets that fly across the screen
 - Grease marks that you can collect on stove
+- Thermometer that tells you how cooked the burger is (percent and cook type [Well Done, Medium Rare, etc.])
+
+
+How do I make frantic gameplay?
+- You must manage many things
+- Customer will only wait a certain amount of time for their burger
+	- If the requirement isn't met, they leave and you must restart
+	
+Only have one day
+- "Levels" are different hours of your work day
+
+A chain that connects multiple burgers together
 
 
 Toppings minigame:
-- Topping from spewing from above by guy that was hired, must
+- Topping from spewing from above by guy that was hired, must collect the right ones

@@ -28,6 +28,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"spr_burger_bottom_side","path":"sprites/spr_burger_bottom_side/spr_burger_bottom_side.yy",},},
+    {"id":{"name":"spr_burger_hitbox","path":"sprites/spr_burger_hitbox/spr_burger_hitbox.yy",},},
     {"id":{"name":"spr_burger_top_side","path":"sprites/spr_burger_top_side/spr_burger_top_side.yy",},},
     {"id":{"name":"spr_grill","path":"sprites/spr_grill/spr_grill.yy",},},
   ],

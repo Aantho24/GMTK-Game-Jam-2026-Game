@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_burger_hitbox",
+    "path":"sprites/spr_burger_hitbox/spr_burger_hitbox.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
