@@ -7,6 +7,8 @@ room_x_max = room_width + (sprite_width / 2)
 room_y_min = -sprite_height
 room_y_max = room_height
 
+on_burger_sprite = sprite_index
+
 set_x()
 set_y()
 
@@ -35,6 +37,8 @@ state_move = function() {
 }
 
 state_stacked = function() {
+	sprite_index = asset_get_index("spr" + string_delete(object_get_name(object_index),1,3) + "_on_burger")
+	
 	x = obj_burger.x
 	y = obj_burger.y - stack_height
 }

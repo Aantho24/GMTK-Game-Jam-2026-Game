@@ -4,6 +4,9 @@ COOK_AMOUNT = 0.25
 RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
 CHARRED_BURGER_COLOR = make_colour_rgb(35,11,11)
 
+x_padding = sprite_width / 4
+y_padding = sprite_height / 10
+
 state_inactive = function() {
 	if mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y, self) {
 		state = state_follow_cursor
