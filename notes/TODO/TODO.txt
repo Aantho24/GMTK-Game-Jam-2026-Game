@@ -27,9 +27,14 @@ Only one burger per level
 10AM
 	- Tutorial
 11AM
+	- Bullets fire in one direction
+	- One burger
 12PM
+	- Bullets fire in two directions
+	- One burger
 1PM
-2PM
+	- Bullets fire in two directions
+	- Two burgers
 	- Burns down building
 
 There are only two rules you gotta follow!
