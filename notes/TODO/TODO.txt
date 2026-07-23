@@ -1,3 +1,6 @@
+Bugs:
+- Stacking multiple patties on top of each other makes bottom patty inaccessable
+
 There are only two rules you gotta follow!
 One, the customer is NEVER right!
 - Most places bend over backwards for their customers. But THAT AINT now we do things here!
