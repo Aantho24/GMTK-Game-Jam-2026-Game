@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_tomato",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_tomato",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Food Objects",
+    "path":"folders/Food Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_topping",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy",
-    "path":"sprites/spr_enemy/spr_enemy.yy",
+    "name":"spr_tomato",
+    "path":"sprites/spr_tomato/spr_tomato.yy",
   },
   "spriteMaskId":null,
   "visible":true,

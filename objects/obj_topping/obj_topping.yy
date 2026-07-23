@@ -9,8 +9,8 @@
   "name":"obj_topping",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Food Objects",
+    "path":"folders/Food Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

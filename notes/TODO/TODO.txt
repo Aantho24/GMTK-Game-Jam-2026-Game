@@ -1,4 +1,9 @@
-TODO: Show heat level as a number
+TODO: 
+- Show heat level as a number
+- When the burger collides with multiple toppings at the same time, they're skipped
+	- Is this purely visual or do they not appear in array?
+		- Regardless you should make some kind of buffer
+
 
 7/22:
 - Grilling
