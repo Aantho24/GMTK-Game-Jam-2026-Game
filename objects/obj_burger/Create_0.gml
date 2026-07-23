@@ -11,7 +11,7 @@ RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
 CHARRED_BURGER_COLOR = make_colour_rgb(35,11,11)
 
 state_inactive = function() {
-	if mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y, obj_burger) {
+	if mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y, self) {
 		state = state_follow_cursor
 	}
 }
@@ -19,11 +19,13 @@ state_inactive = function() {
 state_follow_cursor = function() {
 	x = mouse_x
 	y = mouse_y
-	
-	if position_meeting(x,y,obj_grill) and state_previous == state_cooking_top
+
+	if room = room_grill and position_meeting(x,y,obj_grill) and state_previous == state_cooking_top
 		state = state_cooking_top
-	else if position_meeting(x,y,obj_grill)
+	else if room = room_grill and position_meeting(x,y,obj_grill)
 		state = state_cooking_bottom
+	else if mouse_check_button_pressed(mb_left)
+		state = state_inactive
 }
 
 state_cooking_top = function() {

@@ -25,7 +25,7 @@
     {"id":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},},
     {"id":{"name":"obj_grill","path":"objects/obj_grill/obj_grill.yy",},},
     {"id":{"name":"obj_init_window","path":"objects/obj_init_window/obj_init_window.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"spr_burger_bottom_side","path":"sprites/spr_burger_bottom_side/spr_burger_bottom_side.yy",},},
     {"id":{"name":"spr_burger_hitbox","path":"sprites/spr_burger_hitbox/spr_burger_hitbox.yy",},},
@@ -35,7 +35,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
