@@ -1,3 +1,32 @@
+7/22:
+- Grilling
+
+7/23:
+- Ordering
+- Ratings
+- Toppings
+- Escalating mechanics (level tracker)
+
+7/24:
+- Cutscenes
+- Endings
+- Art
+
+7/25:
+- Art, polish
+
+7/26:
+- Submit
+
+Only one burger per level
+10AM
+	- Tutorial
+11AM
+12PM
+1PM
+2PM
+	- Burns down building
+
 There are only two rules you gotta follow!
 One, the customer is NEVER right!
 - Most places bend over backwards for their customers. But THAT AINT now we do things here!
