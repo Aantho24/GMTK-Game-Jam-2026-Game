@@ -10,7 +10,7 @@ RESIDUAL_COOK_AMOUNT = 0.1
 RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
 CHARRED_BURGER_COLOR = make_colour_rgb(35,11,11)
 
-state_inactive = function() {	
+state_inactive = function() {
 	if mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y, self) {
 		state = state_follow_cursor
 	}
@@ -24,7 +24,7 @@ state_follow_cursor = function() {
 		state = state_cooking_top
 	else if room = room_grill and position_meeting(x,y,obj_grill)
 		state = state_cooking_bottom
-	else if mouse_check_button_pressed(mb_right)
+	else if mouse_check_button_pressed(mb_left)
 		state = state_inactive
 }
 
@@ -43,7 +43,7 @@ state_cooking_top = function() {
 	if mouse_check_button_pressed(mb_left) {
 		state_previous = state
 		state = state_rotate
-	} else if mouse_check_button_pressed(mb_right) state = state_inactive
+	}
 }
 
 state_cooking_bottom = function() {
@@ -61,7 +61,7 @@ state_cooking_bottom = function() {
 	if mouse_check_button_pressed(mb_left) {
 		state_previous = state
 		state = state_rotate
-	} else if mouse_check_button_pressed(mb_right) state = state_inactive
+	}
 }
 
 state_rotate = function() {
