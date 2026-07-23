@@ -1,8 +1,48 @@
 TODO: 
 - Show heat level as a number
-- When the burger collides with multiple toppings at the same time, they're skipped
-	- Is this purely visual or do they not appear in array?
-		- Regardless you should make some kind of buffer
+
+Win screen:
+- Place burger in the center left of screen
+- Slam top and bottom bun
+- Play cha-ching sound
+	- Or "order up!" sound
+- Show rating at center right
+- Show next level button at bottom center
+- When next level button is pressed, destroy all instances (except burger and managers)
+	- Go to room_grill
+
+I because of my impeccible leadership, no doubt!
+Thank to you, I've made so much mullah!!!
+In fact, I've made SO much, that I hired a AI waiter to take your place.
+That's right, we're downsizing baby!!!
+Now scram!
+
+Congrats, you got fired!
+(the resteraunt immediately went bankrupt after you were fired)
+
+Congrats, you burnt the restaraunt down!
+(and went to federal prison for arson and littering)
+
+
+
+Ideas:
+- Order where you must add toppings in a certain order
+- Level where grill move/bounces around
+- Fire that burns patty massively
+
+Rating system:
+(4/4) * (50/70) * 5
+or
+(0/2)+(0/2)+(30/50) / (number of requirements [max in this example is 3])
+[toppings count] / [target topping count]
++
+... 
++
+[heat] / [target heat]
+
+/
+
+number of requirements
 
 
 7/22:

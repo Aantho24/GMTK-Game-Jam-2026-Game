@@ -4,6 +4,16 @@ function create_toppings(topping, amount) {
 	}
 }
 
+level_data = [
+	"1" = {
+	
+	
+	},
+	"2" = {
+		
+	}
+]
+
 create_toppings(obj_onion, 3)
 create_toppings(obj_pickle, 3)
 create_toppings(obj_tomato, 3)

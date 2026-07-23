@@ -30,6 +30,9 @@ state_move = function() {
 		
 		array_push(global.stacked_toppings, self)
 		
+		// Sprite and x-y must be updated immediately after calculating stack height
+		// Waiting until next step causes stacked_toppings to be out of order, causing stack_height 
+		// to be miscalculated and toppings to spawn at wrong y
 		var on_burger_sprite_index = asset_get_index("spr" + string_delete(object_get_name(object_index),1,3) + "_on_burger")
 		if on_burger_sprite_index == -1 {
 			sprite_index = on_burger_sprite
