@@ -1,12 +1,16 @@
-toppings_selection = [obj_onion,obj_pickle,obj_tomato]
+toppings_selection = [obj_onion,obj_pickle,obj_tomato,obj_cheese,obj_lettuce]
 
 create_random_toppings(9,toppings_selection)
 
 X_CURSOR_START = 15
 Y_CURSOR_START = 15
 
-Y_MARGIN = 20
 X_MARGIN = 15
+Y_PADDING = 20
+X_PADDING = 40
+
+// 30 makes it vertical
+MAX_WIDTH = 288
 
 
 x_cursor = X_CURSOR_START
