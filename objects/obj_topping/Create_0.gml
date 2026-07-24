@@ -1,5 +1,6 @@
 SPEED = 2
 DIRECTION = choose(-1,1)
+ROTATION_SPEED = 5
 
 room_x_min = -(sprite_width / 2)
 room_x_max = room_width + (sprite_width / 2)
@@ -35,6 +36,8 @@ if DIRECTION == 1 {
 
 state_move = function() {
 	x += DIRECTION * SPEED
+	
+	image_angle += ROTATION_SPEED
 
 	if x > room_x_min and x < room_x_max and instance_exists(object_telegraph) {
 		instance_destroy(object_telegraph)
@@ -79,6 +82,8 @@ state_move = function() {
 		y = obj_burger.y - stack_height
 
 		create_random_toppings(1, obj_level_manager.toppings_selection)
+		
+		image_angle = 0
 		
 		state = state_stacked
 	}

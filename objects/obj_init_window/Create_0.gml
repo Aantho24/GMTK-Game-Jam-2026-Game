@@ -23,5 +23,5 @@ These are the lines causing the half-pixel sinking
 surface_resize(application_surface, base_width * window_scale, base_height * window_scale)
 display_set_gui_size(base_width, base_height);
 */
-//surface_resize(application_surface, base_width * window_scale, base_height * window_scale)
-//display_set_gui_size(base_width, base_height);
+surface_resize(application_surface, base_width * window_scale, base_height * window_scale)
+display_set_gui_size(base_width, base_height);
