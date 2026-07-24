@@ -7,17 +7,29 @@ room_x_max = room_width + (sprite_width / 2)
 room_y_min = sprite_height / 2
 room_y_max = room_height - (sprite_height / 2)
 
+function set_x() {
+	var OFFSET_MIN = 50
+	var OFFSET_MAX = 370
+	
+	if DIRECTION == 1 {
+		x = room_x_min - irandom_range(OFFSET_MIN,OFFSET_MAX)
+	} else {
+		x = room_x_max + irandom_range(OFFSET_MIN,OFFSET_MAX)
+	}
+}
+
+function set_y() {
+	y = irandom_range(room_y_min, room_y_max)
+}
+
 set_x()
 set_y()
 
 state_move = function() {
 	x += DIRECTION * SPEED
 
-	if DIRECTION == 1 and x >= room_x_max {
-		x = room_x_min
-		set_y()
-	} else if DIRECTION == -1 and x <= room_x_min {
-		x = room_x_max
+	if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
+		set_x()
 		set_y()
 	}
 	

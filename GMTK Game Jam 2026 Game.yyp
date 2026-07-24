@@ -35,7 +35,6 @@
     {"id":{"name":"obj_topping","path":"objects/obj_topping/obj_topping.yy",},},
     {"id":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
-    {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},},
     {"id":{"name":"scr_spawn_toppings","path":"scripts/scr_spawn_toppings/scr_spawn_toppings.yy",},},
     {"id":{"name":"spr_grill","path":"sprites/spr_grill/spr_grill.yy",},},
     {"id":{"name":"spr_onion_on_burger","path":"sprites/spr_onion_on_burger/spr_onion_on_burger.yy",},},
