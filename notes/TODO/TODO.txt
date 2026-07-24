@@ -5,6 +5,7 @@ TODO:
 - Add maximum amount of toppings you can stack on burger
 	- Also maybe make the on_burger sprites smaller
 - Add escalating sound for each topping you add (lift code from Smiles Only)
+- Are the bboxes on the burger and toppings fair enough?
 
 Win screen:
 - Place burger in the center left of screen
@@ -34,12 +35,12 @@ Ideas:
 - Order where you must add toppings in a certain order
 - Level where grill move/bounces around
 - Fire that burns patty massively
-
-Order Ideas:
 - 10 lettuce
 - 3 tomatoes, onions, and pickles
+- Order where you must make two burgers simulatneously
 
 Rating system:
+(how does this account for an ingredient that's not on the order? or will you not have levels like that?)
 (4/4) * (50/70) * 5
 or
 (0/2)+(0/2)+(30/50) / (number of requirements [max in this example is 3])
