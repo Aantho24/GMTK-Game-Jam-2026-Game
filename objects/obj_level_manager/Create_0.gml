@@ -1,11 +1,11 @@
-order_requirements = ds_map_create()
+
 
 
 toppings_selection = [obj_onion,obj_pickle,obj_tomato,obj_cheese,obj_lettuce]
 create_random_toppings(9,toppings_selection)
-ds_map_add(order_requirements,obj_onion.sprite_index,1)
-ds_map_add(order_requirements,obj_pickle.sprite_index,1)
-ds_map_add(order_requirements,obj_tomato.sprite_index,1)
+ds_map_add(global.order_requirements,obj_onion.sprite_index,1)
+ds_map_add(global.order_requirements,obj_pickle.sprite_index,1)
+ds_map_add(global.order_requirements,obj_tomato.sprite_index,1)
 
 
 X_CURSOR_START = 15
