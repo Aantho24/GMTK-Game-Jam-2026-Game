@@ -24,6 +24,7 @@
   },
   "name":"GMTK Game Jam 2026 Game",
   "resources":[
+    {"id":{"name":"font_tally","path":"fonts/font_tally/font_tally.yy",},},
     {"id":{"name":"TODO","path":"notes/TODO/TODO.yy",},},
     {"id":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},},
     {"id":{"name":"obj_grill","path":"objects/obj_grill/obj_grill.yy",},},
