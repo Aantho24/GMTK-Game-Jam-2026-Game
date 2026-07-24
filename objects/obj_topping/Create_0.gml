@@ -8,6 +8,8 @@ room_x_max = room_width + (sprite_width / 2)
 room_y_min = sprite_height / 2
 room_y_max = room_height - (sprite_height / 2)
 
+image_angle = random(360)
+
 function set_x() {
 	var OFFSET_MIN = 50
 	var OFFSET_MAX = 370

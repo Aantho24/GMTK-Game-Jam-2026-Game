@@ -13,12 +13,16 @@ TODO:
 	XXX - Make a DS map of order requirements
 		Ex: (tomato: 2, onion: 3, pickle: 4)
 	XXX - Compare the order requirements map with the tally map
-	- Draw difference on the screen
+	XXX - Draw difference on the screen
 		- So numbers at the top will tell you how many more of each topping you need, not your current amount
 		- If it goes into the negatives, subtract a life
+		
+- Add win and lose state
+	- Win: Meet all order requirements (when both maps are equal) and fully cook burger (heat == 100)
+	- Lose: Go over an order requirement or add a wrong ingredient
 
 		
-- Add life system (lose one when you go over in a requirement
+- Add life system (lose one when you go over in a requirement)
 - No voting system, you must get them all to 0
 
 - Should there be a voting system?
