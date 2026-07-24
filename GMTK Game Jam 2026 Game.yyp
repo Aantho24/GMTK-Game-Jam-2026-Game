@@ -38,6 +38,7 @@
     {"id":{"name":"obj_tomato","path":"objects/obj_tomato/obj_tomato.yy",},},
     {"id":{"name":"obj_topping","path":"objects/obj_topping/obj_topping.yy",},},
     {"id":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
+    {"id":{"name":"scr_are_maps_equal","path":"scripts/scr_are_maps_equal/scr_are_maps_equal.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
     {"id":{"name":"scr_spawn_toppings","path":"scripts/scr_spawn_toppings/scr_spawn_toppings.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},

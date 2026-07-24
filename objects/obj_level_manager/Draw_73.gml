@@ -1,5 +1,6 @@
 draw_set_font(font_tally)
 
+var toppings_tally = global.stacked_toppings_tally
 for (var k = ds_map_find_first(toppings_tally); !is_undefined(k); k = ds_map_find_next(toppings_tally, k)) {
   var v = toppings_tally[? k];
   
