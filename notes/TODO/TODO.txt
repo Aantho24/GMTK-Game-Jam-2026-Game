@@ -4,6 +4,7 @@ TODO:
 - Add telegraph when topping is coming
 - Add maximum amount of toppings you can stack on burger
 	- Also maybe make the on_burger sprites smaller
+- Add escalating sound for each topping you add (lift code from Smiles Only)
 
 Win screen:
 - Place burger in the center left of screen

@@ -4,4 +4,4 @@ randomize()
 
 global.stacked_toppings = []
 
-global.toppings_count = {}
+global.stacked_toppings_tally = ds_map_create()
