@@ -59,7 +59,7 @@ state_move = function() {
 		array_push(global.stacked_toppings, self)
 
 		// Tallies topping
-		topping_name = sprite_index
+		var topping_name = sprite_index
 		if !ds_map_exists(global.stacked_toppings_tally, topping_name) {
 			ds_map_add(global.stacked_toppings_tally, topping_name, 1)
 		} else {

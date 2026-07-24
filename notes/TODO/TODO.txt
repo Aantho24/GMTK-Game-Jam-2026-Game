@@ -7,6 +7,7 @@ TODO:
 - Add escalating sound for each topping you add (lift code from Smiles Only)
 - Are the bboxes on the burger and toppings fair enough?
 - Should the toppings that fly across the room be smaller?
+- Stack mode: must collect all toppings before they leave the screen
 
 - Add an order system requirements
 	- Make a DS map of order requirements
@@ -15,6 +16,7 @@ TODO:
 	- Draw difference on the screen
 		- So numbers at the top will tell you how many more of each topping you need, not your current amount
 		- If it goes into the negatives, subtract a life
+
 		
 - Add life system (lose one when you go over in a requirement
 - No voting system, you must get them all to 0

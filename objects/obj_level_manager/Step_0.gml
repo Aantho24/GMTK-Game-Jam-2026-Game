@@ -1,6 +1,16 @@
 //print(ds_map_keys_to_array(global.stacked_toppings_tally))
 
 toppings_tally = global.stacked_toppings_tally
+
+
+
+for (var k = ds_map_find_first(order_requirements); !is_undefined(k); k = ds_map_find_next(order_requirements, k)) {
+	var v = order_requirements[? k];
+  
+	print($"{k}: {v}")
+}
+
+print("")
 /*
 map = global.stacked_toppings_tally
 for (var k = ds_map_find_first(map); !is_undefined(k); k = ds_map_find_next(map, k)) {
