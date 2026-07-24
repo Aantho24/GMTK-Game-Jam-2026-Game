@@ -3,7 +3,8 @@ heat = 0
 // 0.1, 0.18, 0.25
 COOK_AMOUNT = 0.25
 RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
-CHARRED_BURGER_COLOR = make_colour_rgb(35,11,11)
+COOKED_BURGER_COLOR = make_colour_rgb(108,50,40)
+// make_colour_rgb(82,39,27)
 
 x_padding = sprite_width / 4
 y_padding = sprite_height / 10
