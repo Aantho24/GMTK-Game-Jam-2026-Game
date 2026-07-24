@@ -10,13 +10,15 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Food Sprites","folderPath":"folders/Food Sprites.yy","name":"Food Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Food Objects","folderPath":"folders/Food Objects.yy","name":"Food Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Food Sprites","folderPath":"folders/Food Sprites.yy","name":"Food Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"board.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"board.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -40,6 +42,7 @@
     {"id":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
     {"id":{"name":"scr_spawn_toppings","path":"scripts/scr_spawn_toppings/scr_spawn_toppings.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_cheese_on_burger","path":"sprites/spr_cheese_on_burger/spr_cheese_on_burger.yy",},},
     {"id":{"name":"spr_cheese","path":"sprites/spr_cheese/spr_cheese.yy",},},
     {"id":{"name":"spr_grill","path":"sprites/spr_grill/spr_grill.yy",},},

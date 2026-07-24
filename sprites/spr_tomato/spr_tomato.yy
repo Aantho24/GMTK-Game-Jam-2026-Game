@@ -19,6 +19,7 @@
   "height":16,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"a1a3b76b-1785-423b-bed2-46ee0a347820","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"a1a3b76b-1785-423b-bed2-46ee0a347820","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"77c205dc-1935-404d-988a-593d1e6b06ab","blendMode":0,"displayName":"default","isLocked":false,"name":"77c205dc-1935-404d-988a-593d1e6b06ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tomato",
