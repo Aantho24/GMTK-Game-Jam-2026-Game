@@ -6,6 +6,7 @@ TODO:
 	- Also maybe make the on_burger sprites smaller
 - Add escalating sound for each topping you add (lift code from Smiles Only)
 - Are the bboxes on the burger and toppings fair enough?
+- Should the toppings that fly across the room be smaller?
 
 Win screen:
 - Place burger in the center left of screen
