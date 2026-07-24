@@ -10,9 +10,9 @@ TODO:
 - Stack mode: must collect all toppings before they leave the screen
 
 - Add an order system requirements
-	- Make a DS map of order requirements
+	XXX - Make a DS map of order requirements
 		Ex: (tomato: 2, onion: 3, pickle: 4)
-	- Compare the order requirements map with the tally map
+	XXX - Compare the order requirements map with the tally map
 	- Draw difference on the screen
 		- So numbers at the top will tell you how many more of each topping you need, not your current amount
 		- If it goes into the negatives, subtract a life
