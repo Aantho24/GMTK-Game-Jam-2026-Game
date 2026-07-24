@@ -8,6 +8,47 @@ TODO:
 - Are the bboxes on the burger and toppings fair enough?
 - Should the toppings that fly across the room be smaller?
 
+- Add an order system requirements
+	- Make a DS map of order requirements
+		Ex: (tomato: 2, onion: 3, pickle: 4)
+	- Compare the order requirements map with the tally map
+	- Draw difference on the screen
+		- So numbers at the top will tell you how many more of each topping you need, not your current amount
+		- If it goes into the negatives, subtract a life
+		
+- Add life system (lose one when you go over in a requirement
+- No voting system, you must get them all to 0
+
+- Should there be a voting system?
+
+Pro voting system:
+- More lenient if you make a tiny mistake
+
+Anto voting system:
+- More esoteric
+- More arbitrary
+	- If you lose by getting below certain rating, it's difficult to know what exactly caused the low rating
+- More complicated to program
+
+target - (current amount - target amount)
+1/4
+2/4
+3/4
+4/4
+5/4 = 3/4
+6/4 = 2/4
+7/4 = 1/4
+8/4 = 0/4
+9/4 = -1/4
+
+
+6 - (6-4)
+
+
+
+- Add a way to transition to another order
+	- Need an order system
+
 Win screen:
 - Place burger in the center left of screen
 - Slam top and bottom bun
