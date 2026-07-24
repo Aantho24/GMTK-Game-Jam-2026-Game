@@ -25,13 +25,23 @@ function set_y() {
 set_x()
 set_y()
 
+if DIRECTION == 1 {
+	object_telegraph = instance_create_layer(0,y,"Instances",obj_telegraph)
+} else {
+	object_telegraph = instance_create_layer(room_width,y,"Instances",obj_telegraph, {
+		image_xscale : -1	
+	})	
+}
+
 state_move = function() {
 	x += DIRECTION * SPEED
 
-	if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
+	if x > room_x_min and x < room_x_max and instance_exists(object_telegraph) {
+		instance_destroy(object_telegraph)
+	} else if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
 		create_random_toppings(1,obj_level_manager.toppings_selection)
 		instance_destroy()
-	}
+	} 
 	
 	if (place_meeting(x,y,obj_burger) or place_meeting(x,y,global.stacked_toppings)) and instance_exists(obj_burger) {
 		stack_height = (obj_burger.sprite_height / 2)

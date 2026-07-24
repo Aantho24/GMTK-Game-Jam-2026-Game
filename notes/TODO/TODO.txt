@@ -2,7 +2,7 @@ TODO:
 - Show heat level as a number
 - Fix burger overlapping problem (only a problem for 3 or more burger, so it's all good)
 - Add telegraph when topping is coming
-- Add maximum amount of toppings you can add
+- Add maximum amount of toppings you can stack on burger
 	- Also maybe make the on_burger sprites smaller
 
 Win screen:
