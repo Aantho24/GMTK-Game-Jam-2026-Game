@@ -1,4 +1,12 @@
-print(ds_map_values_to_array(global.stacked_toppings_tally))
+//print(ds_map_keys_to_array(global.stacked_toppings_tally))
+map = global.stacked_toppings_tally
+for (var k = ds_map_find_first(map); !is_undefined(k); k = ds_map_find_next(map, k)) {
+  var v = map[? k];
+  print($"{k}: {v}")
+}
+
+print("\n")
+
 /*
 get_index = 1
 

@@ -46,6 +46,7 @@ state_move = function() {
 	if (place_meeting(x,y,obj_burger) or place_meeting(x,y,global.stacked_toppings)) and instance_exists(obj_burger) {
 		if instance_exists(object_telegraph) instance_destroy(object_telegraph)
 		
+		// Computes stack height
 		stack_height = (obj_burger.sprite_height / 2)
 	
 		for (var topping = 0; topping < array_length(global.stacked_toppings); topping++) {
@@ -54,13 +55,15 @@ state_move = function() {
 		
 		array_push(global.stacked_toppings, self)
 
-		if !ds_map_exists(global.stacked_toppings_tally, object_index) {
-			ds_map_add(global.stacked_toppings_tally, object_index, 1)
+		// Tallies topping
+		topping_name = sprite_index
+		if !ds_map_exists(global.stacked_toppings_tally, topping_name) {
+			ds_map_add(global.stacked_toppings_tally, topping_name, 1)
 		} else {
-			ds_map_set(global.stacked_toppings_tally, object_index, ds_map_find_value(global.stacked_toppings_tally, object_index) + 1)
+			ds_map_set(global.stacked_toppings_tally, topping_name, ds_map_find_value(global.stacked_toppings_tally, topping_name) + 1)
 		}
 
-		// Change sprite_index to on_burger variant
+		// Changes sprite_index to on_burger variant
 		// Sprite and x-y must be updated immediately after calculating stack height
 		// Waiting until next step causes stacked_toppings to be out of order, causing stack_height 
 		// to be miscalculated and toppings to spawn at wrong y
@@ -71,7 +74,7 @@ state_move = function() {
 			sprite_index = on_burger_sprite_index	
 		}
 	
-		// Put topping on burger
+		// Puts topping on burger
 		x = obj_burger.x
 		y = obj_burger.y - stack_height
 
