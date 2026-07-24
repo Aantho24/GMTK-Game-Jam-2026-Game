@@ -1,6 +1,6 @@
 SPEED = 2
 DIRECTION = choose(-1,1)
-ROTATION_SPEED = 5
+ROTATION_SPEED = 6
 
 room_x_min = -(sprite_width / 2)
 room_x_max = room_width + (sprite_width / 2)
@@ -27,9 +27,9 @@ set_x()
 set_y()
 
 if DIRECTION == 1 {
-	object_telegraph = instance_create_layer(0,y,"Telegraphs",obj_telegraph)
+	object_telegraph = instance_create_layer(2,y,"Telegraphs",obj_telegraph)
 } else {
-	object_telegraph = instance_create_layer(room_width,y,"Telegraphs",obj_telegraph, {
+	object_telegraph = instance_create_layer(room_width-2,y,"Telegraphs",obj_telegraph, {
 		image_xscale : -1	
 	})	
 }
