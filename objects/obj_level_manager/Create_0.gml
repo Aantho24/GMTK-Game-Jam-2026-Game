@@ -1,19 +1,8 @@
-function create_toppings(topping, amount) {
-	repeat (amount) {
-		instance_create_layer(0,0,"Toppings",topping)
-	}
-}
+toppings_selection = [obj_onion,obj_pickle,obj_tomato]
 
-level_data = [
-	"1" = {
-	
-	
-	},
-	"2" = {
-		
-	}
-]
+create_random_toppings(9,toppings_selection)
 
-create_toppings(obj_onion, 3)
-create_toppings(obj_pickle, 3)
-create_toppings(obj_tomato, 3)
+/*
+create_toppings(3, obj_onion)
+create_toppings(3, obj_pickle)
+create_toppings(3, obj_tomato)

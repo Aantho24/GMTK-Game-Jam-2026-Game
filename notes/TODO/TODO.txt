@@ -1,5 +1,8 @@
 TODO: 
 - Show heat level as a number
+- Fix burger overlapping problem (only a problem for 3 or more burger, so it's all good)
+- Add telegraph when topping is coming
+- Spawn another topping when one gets stacked
 
 Win screen:
 - Place burger in the center left of screen

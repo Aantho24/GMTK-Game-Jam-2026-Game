@@ -24,12 +24,13 @@ state_move = function() {
 	if (place_meeting(x,y,obj_burger) or place_meeting(x,y,global.stacked_toppings)) and instance_exists(obj_burger) {
 		stack_height = (obj_burger.sprite_height / 2)
 	
-		for (var topping = 0; topping < array_length(global.stacked_toppings); topping += 1) {
+		for (var topping = 0; topping < array_length(global.stacked_toppings); topping++) {
 			stack_height += global.stacked_toppings[topping].sprite_height
 		}
 		
 		array_push(global.stacked_toppings, self)
 		
+		// Change sprite_index to on_burger variant
 		// Sprite and x-y must be updated immediately after calculating stack height
 		// Waiting until next step causes stacked_toppings to be out of order, causing stack_height 
 		// to be miscalculated and toppings to spawn at wrong y
@@ -40,8 +41,11 @@ state_move = function() {
 			sprite_index = on_burger_sprite_index	
 		}
 	
+		// Put topping on burger
 		x = obj_burger.x
 		y = obj_burger.y - stack_height
+
+		create_random_toppings(1, obj_level_manager.toppings_selection)
 		
 		state = state_stacked
 	}
