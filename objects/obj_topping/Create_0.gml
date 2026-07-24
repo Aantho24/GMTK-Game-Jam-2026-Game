@@ -29,8 +29,8 @@ state_move = function() {
 	x += DIRECTION * SPEED
 
 	if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
-		set_x()
-		set_y()
+		create_random_toppings(1,obj_level_manager.toppings_selection)
+		instance_destroy()
 	}
 	
 	if (place_meeting(x,y,obj_burger) or place_meeting(x,y,global.stacked_toppings)) and instance_exists(obj_burger) {
