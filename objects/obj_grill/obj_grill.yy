@@ -6,8 +6,8 @@
   "name":"obj_grill",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Grill Room Objects",
+    "path":"folders/Grill Room Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

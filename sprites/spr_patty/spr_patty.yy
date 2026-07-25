@@ -46,8 +46,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Grill Room Sprites",
+    "path":"folders/Grill Room Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
