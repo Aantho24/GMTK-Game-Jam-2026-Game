@@ -7,11 +7,11 @@ if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) and 
 		instance_destroy()	
 	}
 	
-	level++
+
+	var max_level = struct_names_count(level_data)
+	level = min(level++,max_level)
 	goto_level(level)
 }
-
-
 
 
 
