@@ -4,21 +4,97 @@ player_lives = 3
 // default speed: 2
 // default max: 9
 
+// Speed = 3, Max stack = 10
+
 level_data = {
 	"1" : {
 		toppings_selection : [obj_cheese],
-		maximum_toppings : 8,
+		maximum_toppings : 1,
 		topping_speed : 2,
 		order_requirements: {
-			spr_cheese : 4,
+			spr_cheese : 1,
 		},
 	},
 	"2" : {
-		toppings_selection : [obj_onion],
-		maximum_toppings : 9,
+		toppings_selection : [obj_cheese, obj_lettuce],
+		maximum_toppings : 5,
 		topping_speed : 2,
 		order_requirements: {
+			spr_cheese : 3,
+			spr_lettuce : 1,
+		},
+	},
+	"3" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato],
+		maximum_toppings : 6,
+		topping_speed : 2,
+		order_requirements: {
+			spr_cheese : 3,
+			spr_lettuce : 2,
+			spr_tomato : 1,
+		},
+	},
+	"4" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato],
+		maximum_toppings : 7,
+		topping_speed : 2,
+		order_requirements: {
+			spr_cheese : 2,
+			spr_lettuce : 4,
+			spr_tomato : 4,
+		},
+	},
+	"5" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion],
+		maximum_toppings : 6,
+		topping_speed : 2,
+		order_requirements: {
+			spr_cheese : 4,
+			spr_lettuce : 3,
+			spr_tomato : 2,
 			spr_onion : 1,
+		},
+	},
+	"6" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
+		maximum_toppings : 6,
+		topping_speed : 2,
+		order_requirements: {
+			spr_cheese : 5,
+			spr_lettuce : 4,
+			spr_tomato : 3,
+			spr_onion : 2,
+			spr_pickle : 1,
+		},
+	},
+	"7" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
+		maximum_toppings : 5,
+		topping_speed : 2.1,
+		order_requirements: {
+			spr_cheese : 4,
+			spr_lettuce : 4,
+			spr_tomato : 1,
+			spr_onion : 4,
+			spr_pickle : 1,
+		},
+	},
+	"8" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
+		maximum_toppings : 5,
+		topping_speed : 2.2,
+		order_requirements: {
+			spr_lettuce : 5,
+			spr_tomato : 5,
+			spr_onion : 5,
+		},
+	},
+	"9" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
+		maximum_toppings : 10,
+		topping_speed : 2.2,
+		order_requirements: {
+			spr_pickle : 15,
 		},
 	},
 }

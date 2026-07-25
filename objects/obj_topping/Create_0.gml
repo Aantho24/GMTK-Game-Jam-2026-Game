@@ -11,7 +11,7 @@ room_y_max = room_height - (sprite_height / 2)
 image_angle = random(360)
 
 function set_x() {
-	var OFFSET_MIN = 50
+	var OFFSET_MIN = 100
 	var OFFSET_MAX = 370
 	
 	if DIRECTION == 1 {

@@ -8,18 +8,25 @@ Ideas:
 - Order where you must add toppings in a certain order
 - Level where grill move/bounces around
 - Fire that burns patty massively
-- 10 lettuce
-- 3 tomatoes, onions, and pickles
 - Order where you must make two burgers simulatneously
 - Stack mode: must collect all toppings before they leave the screen
 - Endless mode: Random everything
 	- Put at end of level_data to make it last forever
 	- Add extra life that has a chance of flying across screen
 		- Add shimmer sound when it does
+		- One every five levels
 - Campaign mode: Set amount of levels
 
-Grill the patty to the max,
+To win, grill the patty to the max,
 and get all the needed toppings!
+
+Level ideas:
+- 10 lettuce
+- 3 tomatoes, onions, and pickles
+- Level where you only need one ingredient, and the rest are superfluous
+- Low topping speed, high max toppings
+- High topping speed, low max toppings
+
 
 Polish:
 XXX - When you beat a level, add wait period to show level number before starting level
