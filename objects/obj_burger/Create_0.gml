@@ -19,10 +19,11 @@ state_follow_cursor = function() {
 	x = mouse_x
 	y = mouse_y
 
-	if position_meeting(x,y,obj_grill)
+	if position_meeting(x,y,obj_grill) and time_source_get_state(obj_level_manager.begin_level_intermission) == time_source_state_stopped {
 		state = state_cooking
-	else if mouse_check_button_pressed(mb_left)
+	} else if mouse_check_button_pressed(mb_left) {
 		state = state_inactive
+	}
 }
 
 state_cooking = function() {
