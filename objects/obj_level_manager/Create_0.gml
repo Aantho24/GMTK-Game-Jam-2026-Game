@@ -5,6 +5,7 @@ level_data = {
 	"1" : {
 		toppings_selection : [obj_pickle],
 		maximum_toppings : 9,
+		topping_speed : 2,
 		order_requirements: {
 			spr_pickle : 1,
 		},
@@ -12,6 +13,7 @@ level_data = {
 	"2" : {
 		toppings_selection : [obj_onion],
 		maximum_toppings : 9,
+		topping_speed : 2,
 		order_requirements: {
 			spr_onion : 1,
 		},

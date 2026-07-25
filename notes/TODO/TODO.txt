@@ -9,6 +9,8 @@ TODO:
 
 Polish:
 - When you beat a level, add wait period to show level number before starting level
+	- In this wait period don't let player grill burger
+	- Put time source inside goto level code
 - Add music
 - Add grill sound, toss sound for toppings, splat sound when toppings lands on burger
 - Add escalating sound for each topping you add (lift code from Smiles Only)
@@ -32,7 +34,7 @@ Polish:
 	XXX - Win: Meet all order requirements (when both maps are equal) and fully cook burger (heat == 100)
 	XXX - Lose: Go over an order requirement or add a wrong ingredient
 
-- Add lives and game over
+XXX - Add lives and game over
 
 		
 - Add life system (lose one when you go over in a requirement)

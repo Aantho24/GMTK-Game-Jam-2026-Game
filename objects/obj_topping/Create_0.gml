@@ -1,4 +1,4 @@
-SPEED = 2
+SPEED = obj_level_manager.level_data[$ obj_level_manager.level].topping_speed
 DIRECTION = choose(-1,1)
 ROTATION_SPEED = 6
 
