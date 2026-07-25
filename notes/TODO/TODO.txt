@@ -1,11 +1,21 @@
 TODO: 
-- Show heat level as a number
 - Fix burger overlapping problem (only a problem for 3 or more burger, so it's all good)
-- Add maximum amount of toppings you can stack on burger
-	- Also maybe make the on_burger sprites smaller
+- Maybe make the on_burger sprites smaller
 - Are the bboxes on the burger and toppings fair enough?
 - Should the toppings that fly across the room be smaller?
+
+Ideas:
+- Order where you must add toppings in a certain order
+- Level where grill move/bounces around
+- Fire that burns patty massively
+- 10 lettuce
+- 3 tomatoes, onions, and pickles
+- Order where you must make two burgers simulatneously
 - Stack mode: must collect all toppings before they leave the screen
+- Endless mode: Random everything
+	- Put at end of level_data to make it last forever
+- Campaign mode: Set amount of levels
+- Add extra life that has a chance of flying across screen
 
 Polish:
 - When you beat a level, add wait period to show level number before starting level
@@ -21,6 +31,9 @@ Polish:
 - Add sound for beating level
 - Add particle woosh for when toppings are destroyed (put inside obj_topping destroy event)
 - Add title screen
+- Add sounds for covering over and clicking buttons
+
+
 
 - Add an order system requirements
 	XXX - Make a DS map of order requirements
@@ -94,13 +107,6 @@ Congrats, you burnt the restaraunt down!
 
 
 
-Ideas:
-- Order where you must add toppings in a certain order
-- Level where grill move/bounces around
-- Fire that burns patty massively
-- 10 lettuce
-- 3 tomatoes, onions, and pickles
-- Order where you must make two burgers simulatneously
 
 Rating system:
 (how does this account for an ingredient that's not on the order? or will you not have levels like that?)
