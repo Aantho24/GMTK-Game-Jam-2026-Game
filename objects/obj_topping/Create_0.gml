@@ -75,8 +75,10 @@ state_move = function() {
 		// Waiting until next step causes stacked_toppings to be out of order, causing stack_height 
 		// to be miscalculated and toppings to spawn at wrong y
 		var on_burger_sprite_index = asset_get_index("spr" + string_delete(object_get_name(object_index),1,3) + "_on_burger")
-		if on_burger_sprite_index != -1 {
-			sprite_index = on_burger_sprite_index
+		if on_burger_sprite_index == -1 {
+			sprite_index = on_burger_sprite
+		} else {
+			sprite_index = on_burger_sprite_index	
 		}
 	
 		// Puts topping on burger
