@@ -1,6 +1,7 @@
 if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) and obj_burger.heat == 100 {
 	var max_level = struct_names_count(level_data)
-	level = min(level++,max_level)
+	level++
+	level = min(level, max_level)
 	goto_level(level)
 }
 
@@ -12,7 +13,6 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 		goto_level(level)
 	}
 }
-
 
 /*
 for (var k = ds_map_find_first(global.order_requirements); !is_undefined(k); k = ds_map_find_next(global.order_requirements, k)) {

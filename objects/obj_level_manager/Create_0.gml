@@ -2,11 +2,10 @@ level = 1
 
 level_data = {
 	"1" : {
-		toppings_selection : [obj_onion,obj_pickle,obj_tomato,obj_cheese,obj_lettuce],
+		toppings_selection : [obj_pickle],
 		maximum_toppings : 9,
 		order_requirements: {
-			spr_onion : irandom_range(1,2),
-			spr_pickle : 2,
+			spr_pickle : 1,
 		},
 	},
 	"2" : {

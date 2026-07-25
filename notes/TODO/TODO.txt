@@ -12,6 +12,13 @@ Polish:
 - Add music
 - Add grill sound, toss sound for toppings, splat sound when toppings lands on burger
 - Add escalating sound for each topping you add (lift code from Smiles Only)
+- Add sound for losing life and game over
+- Add sound for everything
+- Make final art for patty and on burger toppings
+- Add buns on top and bottom of patty (purely visual, doesn't have collision mask)
+- Add sound for beating level
+- Add particle woosh for when toppings are destroyed (put inside obj_topping destroy event)
+- Add title screen
 
 - Add an order system requirements
 	XXX - Make a DS map of order requirements
@@ -23,7 +30,9 @@ Polish:
 		
 - Add win and lose state
 	XXX - Win: Meet all order requirements (when both maps are equal) and fully cook burger (heat == 100)
-	- Lose: Go over an order requirement or add a wrong ingredient
+	XXX - Lose: Go over an order requirement or add a wrong ingredient
+
+- Add lives and game over
 
 		
 - Add life system (lose one when you go over in a requirement)
