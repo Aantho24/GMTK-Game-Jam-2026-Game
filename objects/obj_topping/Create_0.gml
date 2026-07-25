@@ -40,11 +40,13 @@ state_move = function() {
 	x += DIRECTION * SPEED
 	
 	image_angle += ROTATION_SPEED
+	
+	var toppings_selection = obj_level_manager.level_data[$ obj_level_manager.level].toppings_selection
 
 	if x > room_x_min and x < room_x_max and instance_exists(object_telegraph) {
 		instance_destroy(object_telegraph)
 	} else if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
-		create_random_toppings(1,obj_level_manager.toppings_selection)
+		create_random_toppings(1,toppings_selection)
 		instance_destroy()
 	} 
 	
@@ -83,7 +85,7 @@ state_move = function() {
 		x = obj_burger.x
 		y = obj_burger.y - stack_height
 
-		create_random_toppings(1, obj_level_manager.toppings_selection)
+		create_random_toppings(1, toppings_selection)
 		
 		image_angle = 0
 		

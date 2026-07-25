@@ -1,7 +1,7 @@
 heat = 0
 
 // 0.1, 0.18, 0.25
-COOK_AMOUNT = 0.25
+COOK_AMOUNT = 50
 RAW_BURGER_COLOR = make_colour_rgb(229,113,113)
 COOKED_BURGER_COLOR = make_colour_rgb(108,50,40)
 // make_colour_rgb(82,39,27)
