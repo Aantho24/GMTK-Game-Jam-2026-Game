@@ -1,13 +1,16 @@
 level = 1
 player_lives = 3
 
+// default speed: 2
+// default max: 9
+
 level_data = {
 	"1" : {
-		toppings_selection : [obj_pickle],
-		maximum_toppings : 9,
+		toppings_selection : [obj_cheese],
+		maximum_toppings : 8,
 		topping_speed : 2,
 		order_requirements: {
-			spr_pickle : 1,
+			spr_cheese : 4,
 		},
 	},
 	"2" : {
