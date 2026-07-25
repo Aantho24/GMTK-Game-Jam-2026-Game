@@ -19,6 +19,7 @@
   "height":2,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"6be1ef14-705d-4ee4-8bb2-98626ee06cb0","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"6be1ef14-705d-4ee4-8bb2-98626ee06cb0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"77c205dc-1935-404d-988a-593d1e6b06ab","blendMode":0,"displayName":"default","isLocked":false,"name":"77c205dc-1935-404d-988a-593d1e6b06ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tomato_on_burger",

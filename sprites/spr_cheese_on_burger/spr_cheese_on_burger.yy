@@ -19,6 +19,7 @@
   "height":2,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"97b2c3cb-359c-4653-9377-5efa604255d5","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"97b2c3cb-359c-4653-9377-5efa604255d5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"77c205dc-1935-404d-988a-593d1e6b06ab","blendMode":0,"displayName":"default","isLocked":false,"name":"77c205dc-1935-404d-988a-593d1e6b06ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cheese_on_burger",

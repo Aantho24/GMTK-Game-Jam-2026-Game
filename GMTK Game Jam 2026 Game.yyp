@@ -68,6 +68,7 @@
     {"id":{"name":"spr_telegraph","path":"sprites/spr_telegraph/spr_telegraph.yy",},},
     {"id":{"name":"spr_tomato_on_burger","path":"sprites/spr_tomato_on_burger/spr_tomato_on_burger.yy",},},
     {"id":{"name":"spr_tomato","path":"sprites/spr_tomato/spr_tomato.yy",},},
+    {"id":{"name":"spr_top_bun","path":"sprites/spr_top_bun/spr_top_bun.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

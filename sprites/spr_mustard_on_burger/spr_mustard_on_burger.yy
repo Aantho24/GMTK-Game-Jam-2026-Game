@@ -19,6 +19,7 @@
   "height":2,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"e12a0603-ba34-4a8b-8f83-6ab24ea20118","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"e12a0603-ba34-4a8b-8f83-6ab24ea20118","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"77c205dc-1935-404d-988a-593d1e6b06ab","blendMode":0,"displayName":"default","isLocked":false,"name":"77c205dc-1935-404d-988a-593d1e6b06ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_mustard_on_burger",

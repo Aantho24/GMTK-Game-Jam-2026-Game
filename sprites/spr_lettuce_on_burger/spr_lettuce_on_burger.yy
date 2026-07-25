@@ -19,6 +19,7 @@
   "height":2,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"c1cb9686-7bf8-4c94-b011-2663cfb228a2","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"c1cb9686-7bf8-4c94-b011-2663cfb228a2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"77c205dc-1935-404d-988a-593d1e6b06ab","blendMode":0,"displayName":"default","isLocked":false,"name":"77c205dc-1935-404d-988a-593d1e6b06ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_lettuce_on_burger",
