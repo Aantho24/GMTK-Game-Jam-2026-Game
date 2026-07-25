@@ -1,13 +1,17 @@
 TODO: 
 - Show heat level as a number
 - Fix burger overlapping problem (only a problem for 3 or more burger, so it's all good)
-- Add telegraph when topping is coming
 - Add maximum amount of toppings you can stack on burger
 	- Also maybe make the on_burger sprites smaller
-- Add escalating sound for each topping you add (lift code from Smiles Only)
 - Are the bboxes on the burger and toppings fair enough?
 - Should the toppings that fly across the room be smaller?
 - Stack mode: must collect all toppings before they leave the screen
+
+Polish:
+- When you beat a level, add wait period to show level number before starting level
+- Add music
+- Add grill sound, toss sound for toppings, splat sound when toppings lands on burger
+- Add escalating sound for each topping you add (lift code from Smiles Only)
 
 - Add an order system requirements
 	XXX - Make a DS map of order requirements
@@ -18,7 +22,7 @@ TODO:
 		- If it goes into the negatives, subtract a life
 		
 - Add win and lose state
-	- Win: Meet all order requirements (when both maps are equal) and fully cook burger (heat == 100)
+	XXX - Win: Meet all order requirements (when both maps are equal) and fully cook burger (heat == 100)
 	- Lose: Go over an order requirement or add a wrong ingredient
 
 		

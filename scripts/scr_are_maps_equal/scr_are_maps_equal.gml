@@ -17,6 +17,14 @@ function are_maps_equal(map1, map2) {
 }
 
 function goto_level(level) {
+	with (obj_topping) {
+		instance_destroy()	
+	}
+	
+	with (obj_telegraph) {
+		instance_destroy()	
+	}
+	
 	global.stacked_toppings = []
 	ds_map_clear(global.order_requirements)
 	ds_map_clear(global.stacked_toppings_tally)
