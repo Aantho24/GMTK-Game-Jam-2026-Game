@@ -91,10 +91,24 @@ level_data = {
 	},
 	"9" : {
 		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
-		maximum_toppings : 10,
-		topping_speed : 2.2,
+		maximum_toppings : 7,
+		topping_speed : 2.1,
 		order_requirements: {
-			spr_pickle : 15,
+			spr_pickle : 4,
+			spr_cheese : 4,
+			spr_onion : 4,
+		},
+	},
+	"10" : {
+		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
+		maximum_toppings : 10,
+		topping_speed : 2,
+		order_requirements: {
+			spr_cheese : 3,
+			spr_lettuce : 3,
+			spr_tomato : 3,
+			spr_onion : 3,
+			spr_pickle : 3,
 		},
 	},
 }
