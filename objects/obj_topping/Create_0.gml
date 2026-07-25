@@ -10,6 +10,14 @@ room_y_max = room_height - (sprite_height / 2)
 
 image_angle = random(360)
 
+
+var TOPPING_COOLDOWN_PERIOD_SECONDS = random(2)
+topping_spawn_cooldown = time_source_create(time_source_game, TOPPING_COOLDOWN_PERIOD_SECONDS, time_source_units_seconds, function() {
+	var toppings_selection = obj_level_manager.level_data[$ obj_level_manager.level].toppings_selection
+	create_random_toppings(1, toppings_selection)
+	time_source_destroy(topping_spawn_cooldown)
+})
+
 function set_x() {
 	var OFFSET_MIN = 50
 	var OFFSET_MAX = 370
@@ -46,7 +54,7 @@ state_move = function() {
 	if x > room_x_min and x < room_x_max and instance_exists(object_telegraph) {
 		instance_destroy(object_telegraph)
 	} else if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
-		create_random_toppings(1,toppings_selection)
+		time_source_start(topping_spawn_cooldown)
 		instance_destroy()
 	} 
 	
@@ -83,7 +91,7 @@ state_move = function() {
 		x = obj_burger.x
 		y = obj_burger.y - stack_height
 
-		create_random_toppings(1, toppings_selection)
+		time_source_start(topping_spawn_cooldown)
 		
 		image_angle = 0
 		
