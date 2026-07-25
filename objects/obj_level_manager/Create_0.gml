@@ -1,4 +1,4 @@
-level = 11
+level = 1
 player_lives = 3
 
 // default speed: 2

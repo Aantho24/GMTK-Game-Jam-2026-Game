@@ -1,4 +1,4 @@
-if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) and obj_burger.heat == 100 {
+if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) {
 	var max_level = struct_names_count(level_data)
 	level++
 	level = min(level, max_level)

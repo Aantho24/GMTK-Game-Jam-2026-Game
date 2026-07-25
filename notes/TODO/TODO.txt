@@ -45,7 +45,8 @@ XXX - When you beat a level, add wait period to show level number before startin
 - Add title screen
 - Add sounds for covering over and clicking buttons
 - Add sound for when topping flies onto screen
-
+- Add sound for when burger is done cooking
+	- Oven ding sound
 
 
 - Add an order system requirements
