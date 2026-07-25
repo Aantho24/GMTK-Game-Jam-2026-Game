@@ -7,10 +7,10 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_37F2746C","path":"rooms/room_grill/room_grill.yy",},
+    {"name":"inst_49D6A992","path":"rooms/room_grill/room_grill.yy",},
     {"name":"inst_3E8D7636","path":"rooms/room_grill/room_grill.yy",},
     {"name":"inst_26736CA6","path":"rooms/room_grill/room_grill.yy",},
     {"name":"inst_31D6EA30","path":"rooms/room_grill/room_grill.yy",},
-    {"name":"inst_49D6A992","path":"rooms/room_grill/room_grill.yy",},
   ],
   "isDnd":false,
   "layers":[

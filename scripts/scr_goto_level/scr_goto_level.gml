@@ -11,7 +11,10 @@ function goto_level(level) {
 	ds_map_clear(global.order_requirements)
 	ds_map_clear(global.stacked_toppings_tally)
 	
-	obj_burger.heat = 0
+	if instance_exists(obj_burger) {
+		obj_burger.heat = 0
+		obj_burger.state = obj_burger.state_follow_cursor
+	}
 
 	// Sets order requirement to the one set in the given level's level data
 	

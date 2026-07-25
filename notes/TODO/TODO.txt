@@ -18,9 +18,9 @@ Ideas:
 - Add extra life that has a chance of flying across screen
 
 Polish:
-- When you beat a level, add wait period to show level number before starting level
-	- In this wait period don't let player grill burger
-	- Put time source inside goto level code
+XXX - When you beat a level, add wait period to show level number before starting level
+		- In this wait period don't let player grill burger
+		- Put time source inside goto level code
 - Add music
 - Add grill sound, toss sound for toppings, splat sound when toppings lands on burger
 - Add escalating sound for each topping you add (lift code from Smiles Only)
