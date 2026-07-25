@@ -17,7 +17,6 @@ function goto_level(level) {
 	}
 
 	// Sets order requirement to the one set in the given level's level data
-	
 	var order_requirements = level_data[$ level].order_requirements
 
 	var all_toppings = variable_struct_get_names(order_requirements);

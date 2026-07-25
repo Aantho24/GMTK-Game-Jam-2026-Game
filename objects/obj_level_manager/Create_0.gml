@@ -1,4 +1,4 @@
-level = 1
+level = 20
 player_lives = 3
 
 // default speed: 2
@@ -70,7 +70,7 @@ level_data = {
 	"7" : {
 		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
 		maximum_toppings : 5,
-		topping_speed : 2.1,
+		topping_speed : 2,
 		order_requirements: {
 			spr_cheese : 4,
 			spr_lettuce : 4,
@@ -82,7 +82,7 @@ level_data = {
 	"8" : {
 		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
 		maximum_toppings : 5,
-		topping_speed : 2.2,
+		topping_speed : 2,
 		order_requirements: {
 			spr_lettuce : 5,
 			spr_tomato : 5,
@@ -92,7 +92,7 @@ level_data = {
 	"9" : {
 		toppings_selection : [obj_cheese, obj_lettuce, obj_tomato, obj_onion, obj_pickle],
 		maximum_toppings : 7,
-		topping_speed : 2.1,
+		topping_speed : 2,
 		order_requirements: {
 			spr_pickle : 4,
 			spr_cheese : 4,
@@ -110,6 +110,71 @@ level_data = {
 			spr_onion : 3,
 			spr_pickle : 3,
 		},
+	},
+	"11" : {
+		toppings_selection : [obj_ketchup, obj_mustard],
+		maximum_toppings : 10,
+		topping_speed : 2,
+		order_requirements: {
+			spr_ketchup : 3,
+			spr_mustard : 3,
+		},	
+	},
+	"12" : {
+		toppings_selection : [obj_ketchup, obj_mustard, obj_onion, obj_lettuce],
+		maximum_toppings : 8,
+		topping_speed : 2,
+		order_requirements: {
+			spr_ketchup : 5,
+			spr_onion : 4,
+		},	
+	},
+	"13" : {
+		toppings_selection : [obj_ketchup, obj_mustard, obj_onion, obj_lettuce, obj_tomato, obj_pickle],
+		maximum_toppings : 8,
+		topping_speed : 2,
+		order_requirements: {
+			spr_mustard : 3,
+			spr_pickle : 4,
+			spr_tomato : 5,
+		},	
+	},
+	"14" : {
+		toppings_selection : [obj_ketchup, obj_mustard, obj_onion, obj_lettuce, obj_tomato, obj_pickle],
+		maximum_toppings : 8,
+		topping_speed : 2,
+		order_requirements: {
+			spr_mustard : 2,
+			spr_onion : 3,
+			spr_ketchup: 4,
+			spr_lettuce : 5,
+		},	
+	},
+	"15" : {
+		toppings_selection : [obj_ketchup, obj_mustard, obj_onion, obj_lettuce, obj_tomato, obj_pickle, obj_cheese],
+		maximum_toppings : 8,
+		topping_speed : 2,
+		order_requirements: {
+			spr_ketchup : 3,
+			spr_cheese : 3,
+			spr_lettuce : 3,
+			spr_tomato : 3,
+			spr_pickle : 3,
+		},	
+	},
+	"20" : {
+		toppings_selection : [obj_ketchup, obj_mustard, obj_onion, obj_lettuce, obj_tomato, obj_pickle, obj_cheese],
+		maximum_toppings : 10,
+		topping_speed : 2,
+		order_requirements: {
+			spr_ketchup : 2,
+			spr_mustard : 2,
+			spr_onion : 2,
+			spr_lettuce : 2,
+			spr_tomato : 2,
+			spr_pickle : 2,
+			spr_cheese : 2,
+		},	
 	},
 }
 

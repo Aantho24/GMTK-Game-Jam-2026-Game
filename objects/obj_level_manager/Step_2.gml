@@ -2,6 +2,7 @@ if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) and 
 	var max_level = struct_names_count(level_data)
 	level++
 	level = min(level, max_level)
+	if level % 5 == 0 player_lives++
 	goto_level(level)
 }
 
