@@ -10,7 +10,7 @@ level_data = {
 		maximum_toppings : 8,
 		topping_speed : 2,
 		order_requirements: {
-			spr_cheese : 1,
+			spr_cheese : 4,
 		},
 	},
 	"2" : {
