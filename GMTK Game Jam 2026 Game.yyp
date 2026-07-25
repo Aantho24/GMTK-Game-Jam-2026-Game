@@ -12,8 +12,8 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Food Objects","folderPath":"folders/Food Objects.yy","name":"Food Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Food Sprites","folderPath":"folders/Food Sprites.yy","name":"Food Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Grill Room Sprites","folderPath":"folders/Grill Room Sprites.yy","name":"Grill Room Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grill Room Objects","folderPath":"folders/Grill Room Objects.yy","name":"Grill Room Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Grill Room Sprites","folderPath":"folders/Grill Room Sprites.yy","name":"Grill Room Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
