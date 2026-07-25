@@ -34,6 +34,7 @@
     {"id":{"name":"obj_grill","path":"objects/obj_grill/obj_grill.yy",},},
     {"id":{"name":"obj_init_window","path":"objects/obj_init_window/obj_init_window.yy",},},
     {"id":{"name":"obj_lettuce","path":"objects/obj_lettuce/obj_lettuce.yy",},},
+    {"id":{"name":"obj_level_display","path":"objects/obj_level_display/obj_level_display.yy",},},
     {"id":{"name":"obj_level_manager","path":"objects/obj_level_manager/obj_level_manager.yy",},},
     {"id":{"name":"obj_onion","path":"objects/obj_onion/obj_onion.yy",},},
     {"id":{"name":"obj_pickle","path":"objects/obj_pickle/obj_pickle.yy",},},

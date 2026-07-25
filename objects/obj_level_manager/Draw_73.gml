@@ -3,6 +3,10 @@ draw_set_font(font_tally)
 for (var k = ds_map_find_first(global.order_requirements); !is_undefined(k); k = ds_map_find_next(global.order_requirements, k)) {
 	var v = global.order_requirements[? k];
 	
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+	draw_set_alpha(1)
+	
 	draw_sprite(k,0,x_cursor,y_cursor)
 	x_cursor += X_MARGIN
 	

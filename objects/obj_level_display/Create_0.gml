@@ -1,0 +1,1 @@
+intermission_text_alpha = 1

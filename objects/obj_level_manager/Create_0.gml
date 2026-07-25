@@ -20,6 +20,14 @@ level_data = {
 	},
 }
 
+var LEVEL_INTERMISSION_WAIT_PERIOD_SECONDS = 2
+begin_level_intermission = time_source_create(time_source_game, LEVEL_INTERMISSION_WAIT_PERIOD_SECONDS, time_source_units_seconds, function() {
+	// Sets maximum toppings to the one set in the given level's level data
+	var toppings_selection = level_data[$ level].toppings_selection
+	var max_toppings = level_data[$ level].maximum_toppings
+	create_random_toppings(max_toppings,toppings_selection)	
+})
+
 goto_level(level)
 
 
