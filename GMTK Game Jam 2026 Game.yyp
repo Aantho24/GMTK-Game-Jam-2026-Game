@@ -37,6 +37,7 @@
     {"id":{"name":"obj_telegraph","path":"objects/obj_telegraph/obj_telegraph.yy",},},
     {"id":{"name":"obj_tomato","path":"objects/obj_tomato/obj_tomato.yy",},},
     {"id":{"name":"obj_topping","path":"objects/obj_topping/obj_topping.yy",},},
+    {"id":{"name":"room_game_over","path":"rooms/room_game_over/room_game_over.yy",},},
     {"id":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
     {"id":{"name":"scr_are_maps_equal","path":"scripts/scr_are_maps_equal/scr_are_maps_equal.yy",},},
     {"id":{"name":"scr_goto_level","path":"scripts/scr_goto_level/scr_goto_level.yy",},},
@@ -61,6 +62,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"room_grill","path":"rooms/room_grill/room_grill.yy",},},
+    {"roomId":{"name":"room_game_over","path":"rooms/room_game_over/room_game_over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

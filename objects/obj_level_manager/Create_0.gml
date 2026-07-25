@@ -1,4 +1,5 @@
 level = 1
+player_lives = 3
 
 level_data = {
 	"1" : {
