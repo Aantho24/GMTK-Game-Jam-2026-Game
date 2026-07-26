@@ -3,6 +3,7 @@ if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) {
 	level++
 	
 	if level > struct_names_count(level_data) {
+		draw_set_alpha(1)
 		room_goto(room_congrats)
 	} else {
 		level = min(level, max_level)
@@ -21,6 +22,7 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 		play_topping_collect_sound = false
 		
 		if player_lives < 0 {
+			draw_set_alpha(1)
 			room_goto(room_game_over)
 		} else {
 			goto_level(level)

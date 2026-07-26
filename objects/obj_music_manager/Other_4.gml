@@ -11,7 +11,11 @@ switch (room)
     break
 	
 	case room_congrats:
-		audio_play_sound(mus_congrats, 0, true)
+		audio_play_sound(mus_congrats, 0, false)
+	break
+	
+	case room_game_over:
+		audio_play_sound(mus_game_over, 0, false)
 	break
 
     default:
