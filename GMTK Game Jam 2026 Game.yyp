@@ -53,6 +53,8 @@
     {"id":{"name":"scr_goto_level","path":"scripts/scr_goto_level/scr_goto_level.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
     {"id":{"name":"scr_spawn_toppings","path":"scripts/scr_spawn_toppings/scr_spawn_toppings.yy",},},
+    {"id":{"name":"snd_collect_topping","path":"sounds/snd_collect_topping/snd_collect_topping.yy",},},
+    {"id":{"name":"snd_game_over","path":"sounds/snd_game_over/snd_game_over.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_cheese_on_burger","path":"sprites/spr_cheese_on_burger/spr_cheese_on_burger.yy",},},

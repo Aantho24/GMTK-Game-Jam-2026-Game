@@ -82,6 +82,8 @@ state_move = function() {
 		
 		image_angle = 0
 		
+		obj_level_manager.play_topping_collect_sound = true
+		
 		state = state_stacked
 	}
 }

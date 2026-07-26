@@ -12,6 +12,7 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 	if !ds_map_exists(global.order_requirements, k) 
 	or (ds_map_exists(global.order_requirements, k) and (global.order_requirements[? k] - v < 0)) {
 		player_lives--
+		play_topping_collect_sound = false
 		
 		if player_lives < 0 {
 			room_goto(room_game_over)
@@ -19,4 +20,12 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 			goto_level(level)
 		}
 	}
+} 
+
+if play_topping_collect_sound == true {
+	audio_play_sound_ext({ 
+		sound : snd_collect_topping,
+		pitch : 1 + (count_sum_of_collected_toppings() / count_sum_of_required_toppings()),
+	})
+	play_topping_collect_sound = false
 }

@@ -1,6 +1,8 @@
 level = 1
 player_lives = 3
 
+play_topping_collect_sound = false
+
 // default speed: 2
 // default max: 9
 

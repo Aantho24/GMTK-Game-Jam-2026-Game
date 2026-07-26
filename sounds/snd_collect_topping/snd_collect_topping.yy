@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_collect_topping",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.19907029,
+  "exportDir":"",
+  "name":"snd_collect_topping",
+  "parent":{
+    "name":"GMTK Game Jam 2026 Game",
+    "path":"GMTK Game Jam 2026 Game.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_collect_topping.wav",
+  "volume":1.0,
+}
