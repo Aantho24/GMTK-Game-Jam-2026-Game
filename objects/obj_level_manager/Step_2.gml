@@ -24,7 +24,7 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 
 if play_topping_collect_sound == true {
 	audio_play_sound_ext({ 
-		sound : snd_collect_topping,
+		sound : snd_collect_topping_alt,
 		pitch : 1 + (count_sum_of_collected_toppings() / count_sum_of_required_toppings()),
 	})
 	play_topping_collect_sound = false

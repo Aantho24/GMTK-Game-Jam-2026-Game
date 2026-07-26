@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_game_over",
+  "%Name":"snd_collect_topping_alt",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.8651928,
+  "duration":1.3215193,
   "exportDir":"",
-  "name":"snd_game_over",
+  "name":"snd_collect_topping_alt",
   "parent":{
     "name":"Sound Effects",
     "path":"folders/Sound Effects.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_game_over.wav",
-  "volume":0.8,
+  "soundFile":"snd_collect_topping_alt.mp3",
+  "volume":1.0,
 }

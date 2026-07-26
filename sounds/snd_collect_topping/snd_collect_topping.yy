@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_collect_topping",
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Sound Effects",
+    "path":"folders/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
