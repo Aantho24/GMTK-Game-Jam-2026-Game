@@ -9,6 +9,7 @@ if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) {
 		level = min(level, max_level)
 		if level % 5 == 0 player_lives++
 		goto_level(level)
+		audio_play_sound(snd_toppings_disappear,0,false)
 	}
 		
 }
@@ -21,6 +22,7 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 		player_lives--
 		play_topping_collect_sound = false
 		audio_play_sound(snd_hit,0,false)
+		audio_play_sound(snd_level_restart,0,false)
 		
 		if player_lives < 0 {
 			draw_set_alpha(1)
