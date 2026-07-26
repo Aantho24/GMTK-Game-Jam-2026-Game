@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Logos",
+    "path":"folders/Logos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -23,6 +23,7 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 		
 		if player_lives < 0 {
 			draw_set_alpha(1)
+			global.highest_level_reached = level
 			room_goto(room_game_over)
 		} else {
 			goto_level(level)
