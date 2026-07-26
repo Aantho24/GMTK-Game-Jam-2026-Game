@@ -1,0 +1,1 @@
+if !array_contains(global.stacked_toppings, self) instance_create_layer(x,y,"Toppings",obj_poof)

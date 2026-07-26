@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_topping",
+  "%Name":"obj_poof",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_topping",
+  "name":"obj_poof",
   "overriddenProperties":[],
   "parent":{
-    "name":"Food Objects",
-    "path":"folders/Food Objects.yy",
+    "name":"GMTK Game Jam 2026 Game",
+    "path":"GMTK Game Jam 2026 Game.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_poof",
+    "path":"sprites/spr_poof/spr_poof.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
