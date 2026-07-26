@@ -1,9 +1,15 @@
 if are_maps_equal(global.stacked_toppings_tally, global.order_requirements) {
 	var max_level = struct_names_count(level_data)
 	level++
-	level = min(level, max_level)
-	if level % 5 == 0 player_lives++
-	goto_level(level)
+	
+	if level > struct_names_count(level_data) {
+		room_goto(room_congrats)
+	} else {
+		level = min(level, max_level)
+		if level % 5 == 0 player_lives++
+		goto_level(level)
+	}
+		
 }
 
 for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k); k = ds_map_find_next(global.stacked_toppings_tally, k)) {

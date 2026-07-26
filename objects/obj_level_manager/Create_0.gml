@@ -1,4 +1,4 @@
-level = 1
+level = 20
 player_lives = 3
 
 play_topping_collect_sound = false

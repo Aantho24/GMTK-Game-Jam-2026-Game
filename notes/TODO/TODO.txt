@@ -46,6 +46,7 @@ XXX - Add escalating sound for each topping you add (lift code from Smiles Only)
 - Add sounds for covering over and clicking buttons
 - Add sound for when topping flies onto screen
 - Add congratulations screen
+- Add victory sound for beating level
 
 Title music
 Game music
