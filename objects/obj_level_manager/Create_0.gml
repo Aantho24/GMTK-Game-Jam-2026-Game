@@ -1,5 +1,5 @@
 level = 20
-player_lives = 0
+player_lives = 3
 
 play_topping_collect_sound = false
 
