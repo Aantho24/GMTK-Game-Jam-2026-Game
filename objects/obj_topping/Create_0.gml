@@ -53,7 +53,6 @@ state_move = function() {
 	if (place_meeting(x,y,obj_burger) or place_meeting(x,y,global.stacked_toppings)) and instance_exists(obj_burger) {
 		if instance_exists(object_telegraph) instance_destroy(object_telegraph)
 		
-		// Computes stack height
 		stack_height = compute_stack_height()
 		
 		array_push(global.stacked_toppings, self)

@@ -1,0 +1,1 @@
+print(count_sum_of_collected_toppings())

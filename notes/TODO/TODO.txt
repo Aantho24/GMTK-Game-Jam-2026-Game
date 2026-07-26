@@ -34,7 +34,7 @@ XXX - When you beat a level, add wait period to show level number before startin
 		- Put time source inside goto level code
 - Add music
 - Add escalating sound for each topping you add (lift code from Smiles Only)
-	- And a splat sound on top of it
+	- And a splat sound on top of
 - Add sound for losing life and game over
 - Add sound for everything
 - Make final art for patty and on burger toppings
