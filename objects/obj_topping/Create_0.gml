@@ -44,6 +44,10 @@ state_move = function() {
 	var toppings_selection = obj_level_manager.level_data[$ obj_level_manager.level].toppings_selection
 
 	if x > room_x_min and x < room_x_max and instance_exists(object_telegraph) {
+		audio_play_sound_ext({
+			sound : snd_topping_enters,
+			pitch : random_range(0.7,1),
+		})
 		instance_destroy(object_telegraph)
 	} else if (DIRECTION == 1 and x >= room_x_max) or (DIRECTION == -1 and x <= room_x_min) {
 		create_random_toppings(1,toppings_selection)

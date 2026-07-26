@@ -35,16 +35,16 @@ XXX - When you beat a level, add wait period to show level number before startin
 XXX - Add music
 XXX - Add escalating sound for each topping you add (lift code from Smiles Only)
 		- And a splat sound on top of
-- Add sound for losing a life and game over
+XXX - Add sound for losing a life and game over
 - Add sound for everything
 XXX - Make final art for patty and on burger toppings
 XXX - Add buns on top and bottom of patty (purely visual, doesn't have collision mask)
-- Add sound for beating level
-	- Play cha-ching sound or "order up!" sound
+XXX - Add sound for beating level
+		- Play cha-ching sound or "order up!" sound
 - Add particle woosh for when toppings are destroyed (put inside obj_topping destroy event)
 XXX - Add title screen
 - Add sounds for covering over and clicking buttons
-- Add sound for when topping flies onto screen
+XXX - Add sound for when topping flies onto screen
 XXX - Add congratulations screen
 - Add sound for telegraph
 - Add sound for getting an extra life

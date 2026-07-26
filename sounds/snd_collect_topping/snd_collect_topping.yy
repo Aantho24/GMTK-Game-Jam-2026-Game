@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.19907029,
+  "duration":1.3215193,
   "exportDir":"",
   "name":"snd_collect_topping",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_collect_topping.wav",
+  "soundFile":"snd_collect_topping.mp3",
   "volume":1.0,
 }
