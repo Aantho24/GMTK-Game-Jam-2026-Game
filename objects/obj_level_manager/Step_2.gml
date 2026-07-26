@@ -20,6 +20,7 @@ for (var k = ds_map_find_first(global.stacked_toppings_tally); !is_undefined(k);
 	or (ds_map_exists(global.order_requirements, k) and (global.order_requirements[? k] - v < 0)) {
 		player_lives--
 		play_topping_collect_sound = false
+		audio_play_sound(snd_hit,0,false)
 		
 		if player_lives < 0 {
 			draw_set_alpha(1)

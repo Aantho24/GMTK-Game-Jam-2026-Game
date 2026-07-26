@@ -48,6 +48,7 @@ XXX - Add title screen
 XXX - Add congratulations screen
 - Add sound for telegraph
 - Add sound for getting an extra life
+- Add sound for getting all of a topping
 
 
 Title music

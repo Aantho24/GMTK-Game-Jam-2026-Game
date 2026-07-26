@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_collect_topping_alt",
+  "%Name":"snd_hit",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.3215193,
+  "duration":1.9733107,
   "exportDir":"",
-  "name":"snd_collect_topping_alt",
+  "name":"snd_hit",
   "parent":{
     "name":"Sound Effects",
     "path":"folders/Sound Effects.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_collect_topping_alt.mp3",
+  "soundFile":"snd_hit.mp3",
   "volume":1.0,
 }
