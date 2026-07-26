@@ -1,1 +1,1 @@
-print(count_sum_of_collected_toppings())
+print($"{count_sum_of_collected_toppings()} / {count_sum_of_required_toppings()}")
