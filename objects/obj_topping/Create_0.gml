@@ -54,11 +54,7 @@ state_move = function() {
 		if instance_exists(object_telegraph) instance_destroy(object_telegraph)
 		
 		// Computes stack height
-		stack_height = (obj_burger.sprite_height / 2)
-	
-		for (var topping = 0; topping < array_length(global.stacked_toppings); topping++) {
-			stack_height += global.stacked_toppings[topping].sprite_height
-		}
+		stack_height = compute_stack_height()
 		
 		array_push(global.stacked_toppings, self)
 

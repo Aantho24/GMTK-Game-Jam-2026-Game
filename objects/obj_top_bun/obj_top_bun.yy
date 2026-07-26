@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_burger",
+  "%Name":"obj_top_bun",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_burger",
+  "name":"obj_top_bun",
   "overriddenProperties":[],
   "parent":{
     "name":"Grill Room Objects",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_patty",
-    "path":"sprites/spr_patty/spr_patty.yy",
+    "name":"spr_top_bun",
+    "path":"sprites/spr_top_bun/spr_top_bun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
