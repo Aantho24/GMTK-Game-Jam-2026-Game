@@ -41,7 +41,7 @@ XXX - Make final art for patty and on burger toppings
 XXX - Add buns on top and bottom of patty (purely visual, doesn't have collision mask)
 XXX - Add sound for beating level
 		- Play cha-ching sound or "order up!" sound
-- Add particle woosh for when toppings are destroyed (put inside obj_topping destroy event)
+XXX - Add particle woosh for when toppings are destroyed (put inside obj_topping destroy event)
 XXX - Add title screen
 - Add sounds for covering over and clicking buttons
 XXX - Add sound for when topping flies onto screen
