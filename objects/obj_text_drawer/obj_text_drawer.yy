@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_high_score_drawer",
+  "%Name":"obj_text_drawer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_high_score_drawer",
+  "name":"obj_text_drawer",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2026 Game",
-    "path":"GMTK Game Jam 2026 Game.yyp",
+    "name":"Managers",
+    "path":"folders/Managers.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
